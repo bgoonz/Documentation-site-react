@@ -31,19 +31,7 @@ const features = [
       "https://github.com/bgoonz/web-dev-resource-hub/blob/master/core-site/images/logo-transparent.png?raw=true",
     description: <>
       
-      <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                "button button--outline button--secondary button--lg",
-                styles.getStarted
-              )}
-              to = {
-                useBaseUrl( "https://jsanimate-gnj46.ondigitalocean.app/" )
-              }
-            >
-              To Docs
-            </Link>
-          </div>
+   
       
       
       
