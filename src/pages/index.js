@@ -1,48 +1,75 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import styles from "./styles.module.css";
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: "Bryan Guner Web Dev Docs",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/66654881?s=460&u=4614c45125eb6ab7e4b04468cb9cdf5c998c879d&v=4",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        🔭 Contract Web Development Relational Concepts 🌱 I'm currently
+        learning React/Redux, Python, Java, Express, jQuery 👯 I'm looking to
+        collaborate on Any web audio or open source educational tools. 🤝 I'm
+        looking for help with Learning React 👨‍💻 All of my projects are available
+        at https://bgoonz.github.io/ 📝 I regularly write articles on
+        https://goofy-euclid-1cd736.netlify.app/core-site/index.html 💬 Ask me
+        about Anything: 📫 How to reach me bryan.guner@gmail.com ⚡ Fun fact I
+        played Bamboozle Music Festival at the Meadowlands Stadium Complex when
+        I was 14.
       </>
-    ),
+    )
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: "My Other Websites",
+    imageUrl:
+      "https://github.com/bgoonz/web-dev-resource-hub/blob/master/core-site/images/logo-transparent.png?raw=true",
+    description: <>
+      
+      <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                "button button--outline button--secondary button--lg",
+                styles.getStarted
+              )}
+              to = {
+                useBaseUrl( "https://jsanimate-gnj46.ondigitalocean.app/" )
+              }
+            >
+              To Docs
+            </Link>
+          </div>
+      
+      
+      
+      
+      
+      
+      
+    </>
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: "Learning React",
+    imageUrl:
+      "https://github.com/bgoonz/web-dev-resource-hub/blob/master/core-site/images/logo-transparent.png?raw=true",
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
         be extended while reusing the same header and footer.
       </>
-    ),
-  },
+    )
+  }
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx("col col--4", styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -56,23 +83,25 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      description="Description will go into a meta tag in <head />"
+    >
+      <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
+                "button button--outline button--secondary button--lg",
+                styles.getStarted
               )}
-              to={useBaseUrl('docs/')}>
-              Get Started
+              to={useBaseUrl("docs/")}
+            >
+              To Docs
             </Link>
           </div>
         </div>
