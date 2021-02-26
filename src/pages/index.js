@@ -47,8 +47,9 @@ const features = [
       "https://github.com/bgoonz/web-dev-resource-hub/blob/master/core-site/images/logo-transparent.png?raw=true",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+     
+In HTML, almost all tags have both an opening and closing tag the closing tag always has a forward slash before the tag name that you are closing.
+there are special instances in HTML called "self-closing tags", or tags that don't require both an opening and closing tag before another tag can start.
       </>
     )
   }
