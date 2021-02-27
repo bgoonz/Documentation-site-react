@@ -1,4 +1,12 @@
-Top of Form
+---
+slug: Data structures
+title: Data Structures
+author: Bryan Guner
+author_title: Web Developer
+author_url: https://github.com/bgoonz
+author_image_url: https://avatars.githubusercontent.com/u/66654881?s=460&u=4614c45125eb6ab7e4b04468cb9cdf5c998c879d&v=4
+tags: [Data Structures, Algorithms]
+---
 
 **How to approach JS coding problems?**
 
@@ -47,7 +55,7 @@ now
 This step is really very helpful when the problem at hand is very big.
 In such cases, I recommend the following:
 
-![](RackMultipart20201025-4-14orxdn_html_2b63d31968aaf775.png)
+
 
 —Try to make a flow chart the problem\
   — Divide the problem into different modules or sub-problems\
@@ -68,7 +76,7 @@ ideas.
 
 **Just keep in mind 3 things, and you'll surely figure out the path**
 
-— ![](RackMultipart20201025-4-14orxdn_html_ceac7f0ca6949c9c.png)The
+
 point where you started\
   — Where are you right now?\
   — What is your destination?
@@ -118,7 +126,7 @@ if problem says print...console.log(what are we printing?)
 ```
 
 3.) Do we need to (loop) itterate?\
- ![](cffee.png)\
+
  (are we going to need to iterate through a string or array?)
 
 ``` {.code-line data-line="91"}

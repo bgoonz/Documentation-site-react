@@ -1,6 +1,12 @@
-[](https://github.com/bgoonz)
-
-[Home](/)
+---
+slug: Data structures
+title: Data Structures
+author: Bryan Guner
+author_title: Web Developer
+author_url: https://github.com/bgoonz
+author_image_url: https://avatars.githubusercontent.com/u/66654881?s=460&u=4614c45125eb6ab7e4b04468cb9cdf5c998c879d&v=4
+tags: [Data Structures, Algorithms]
+---
 
 Express.js {#expressjs .mume-header}
 ==========
@@ -198,7 +204,7 @@ const app = express();
         modular, mountable route handlers.
         -   A `Router`{.language-javascript} instance is a complete
             middleware and routing system; for this reason, it is often
-            referred to as a “mini-app”.
+            referred to as a "mini-app".
 
 ### Middleware []() {#middleware-a-idmiddlewarea .mume-header}
 
@@ -208,7 +214,7 @@ const app = express();
 -   Middleware functions are functions that have access to the request
     object ( `req`{.language-javascript}), the response object (
     `res`{.language-javascript}), and the `next`{.language-javascript}
-    function in the application’s request-response cycle.
+    function in the application's request-response cycle.
     -   The `next`{.language-javascript} function is a function in the
         Express router which, when invoked, executes the middleware
         succeeding the current middleware.
@@ -431,7 +437,7 @@ app.use(session({
     `proxy`{.language-javascript}
 
     Trust the reverse proxy when setting secure cookies (via the
-    “X-Forwarded-Proto” header).
+    "X-Forwarded-Proto" header).
 
     `rolling`{.language-javascript}
 
@@ -526,7 +532,7 @@ app.use(session({
 
     Recommended
 
-    Used to “touch” a given session given a session ID (
+    Used to "touch" a given session given a session ID (
     `sid`{.language-javascript}) and session (
     `session`{.language-javascript}) object. The
     `callback`{.language-javascript} should be called as
@@ -885,7 +891,7 @@ Template Inheritance {#template-inheritance .mume-header}
 
 -   Pug supports template inheritance. Template inheritance works via
     the block and extends keywords.
--   In a template, a block is simply a “block” of Pug that a child
+-   In a template, a block is simply a "block" of Pug that a child
     template may replace. This process is recursive.
 -   Pug blocks can provide default content, if appropriate. Providing
     default content is purely optional, though. The example below
@@ -896,7 +902,7 @@ Template Inheritance {#template-inheritance .mume-header}
 -   Pug allows you to `replace`{.language-javascript} (default),
     `prepend`{.language-javascript}, or `append`{.language-javascript}
     blocks.
-    -   When using block append or block prepend, the word “block” is
+    -   When using block append or block prepend, the word "block" is
         optional.
 -   Note that only named blocks and mixin definitions can appear at the
     top (unindented) level of a child template.

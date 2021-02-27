@@ -1,6 +1,12 @@
-[](https://github.com/bgoonz)
-
-[Home](/)
+---
+slug: Data structures
+title: Data Structures
+author: Bryan Guner
+author_title: Web Developer
+author_url: https://github.com/bgoonz
+author_image_url: https://avatars.githubusercontent.com/u/66654881?s=460&u=4614c45125eb6ab7e4b04468cb9cdf5c998c879d&v=4
+tags: [Data Structures, Algorithms]
+---
 
 EMMET {#emmet .mume-header}
 =====

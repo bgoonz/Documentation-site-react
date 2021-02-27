@@ -1,4 +1,12 @@
-[](%20class=https://github.com/bgoonz)
+---
+slug: Data structures
+title: Data Structures
+author: Bryan Guner
+author_title: Web Developer
+author_url: https://github.com/bgoonz
+author_image_url: https://avatars.githubusercontent.com/u/66654881?s=460&u=4614c45125eb6ab7e4b04468cb9cdf5c998c879d&v=4
+tags: [Data Structures, Algorithms]
+---
 
 [Home](/)
 
@@ -35,7 +43,7 @@
 
 -   estimates how an algorithm performs regardless kind of machine it
     runs on
-    -   calculated by “counting” the number of operations performed
+    -   calculated by "counting" the number of operations performed
 
 ### Complexity Classes []() {#complexity-classes-a-idcomplexityclassesa .mume-header}
 
@@ -110,7 +118,7 @@ function constant2(n) {
         additional step
 -   a large increase of input size will increase the number of steps
     required by a small amount
--   Logarithmic growth only requires one additional “step” when the
+-   Logarithmic growth only requires one additional "step" when the
     input size is doubled:
 
 #### Logarithmic Growth {#logarithmic-growth .mume-header}
@@ -697,7 +705,7 @@ function binarySearch(array, target) {
 -   **Tabulation** has to look through the entire search space;
     memoization does not
     -   tabulation requires careful ordering of the subproblems is;
-        memoization doesn’t care much about the order of recursive
+        memoization doesn't care much about the order of recursive
         calls.
 
 ##### Main considerations for using tabulation: {#main-considerations-for-using-tabulation .mume-header}

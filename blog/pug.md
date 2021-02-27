@@ -1,8 +1,12 @@
-[](https://github.com/bgoonz)
-
-[Home](/)
-
-![](https://hackernoon.com/hn-images/1*PmL3-GUNxYP26qTSlVrmzw.png)
+---
+slug: Data structures
+title: Data Structures
+author: Bryan Guner
+author_title: Web Developer
+author_url: https://github.com/bgoonz
+author_image_url: https://avatars.githubusercontent.com/u/66654881?s=460&u=4614c45125eb6ab7e4b04468cb9cdf5c998c879d&v=4
+tags: [Data Structures, Algorithms]
+---
 
 #### Jump to... {#jump-to .mume-header}
 
@@ -96,7 +100,7 @@ Pug {#pug .mume-header}
 #### `pug.compile(source, options)`{.language-javascript} {#pugcompilesource-options .mume-header}
 
 -   will compile the Pug source code into a JavaScript function that
-    takes a data object (called “locals”) as an argument.
+    takes a data object (called "locals") as an argument.
 -   Call that resultant function with your data, and voilà!, it will
     return a string of HTML rendered with your data.
 -   The compiled function can be re-used, and called with different sets
@@ -195,8 +199,8 @@ Pug {#pug .mume-header}
         `append`{.language-javascript} blocks.
 
         -   When using `block append`{.language-javascript} or
-            `block prepend`{.language-javascript}, the word “
-            `block`{.language-javascript}” is optional:
+            `block prepend`{.language-javascript}, the word "
+            `block`{.language-javascript}" is optional:
 
         ``` {.language-pug data-role="codeBlock" data-info="pug"}
         //- page.pug
@@ -231,7 +235,7 @@ Pug {#pug .mume-header}
 #### Buffered vs Unbuffered Code {#buffered-vs-unbuffered-code .mume-header}
 
 -   **Unbuffered code** starts with a minus (
-    `-`{.language-javascript}). It doesn’t directly add anything to the
+    `-`{.language-javascript}). It doesn't directly add anything to the
     output, but its values may be used from within Pug.
 -   **Buffered code**, on the other hand, starts with an equals (
     `=`{.language-javascript}). It evaluates a JavaScript expression and
