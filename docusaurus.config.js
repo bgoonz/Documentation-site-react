@@ -74,7 +74,7 @@ module.exports = {
           ],
         },
       ],
-      //   copyright: `Copyright © ${new Date().getFullYear()}Bryan Guner 😊`
+         copyright: `Copyright © ${new Date().getFullYear()}Bryan Guner 😊 -- This site was built with React`
     },
   },
   presets: [
