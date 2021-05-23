@@ -2,6 +2,8 @@
 [Live Site](https://documentation-site-react2-kwpa21lav-bgoonz.vercel.app/)
 
 
+https://documentation-site-react2-kwpa21lav-bgoonz.vercel.app/
+
 ![dpcu](https://github.com/bgoonz/Documentation-site-react/blob/master/docu.PNG)
 
 [Edit](https://codesandbox.io/s/stable-conr8)
