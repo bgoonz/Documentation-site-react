@@ -80,13 +80,13 @@ Some text to show that the reference links can follow later.
 
 ## Images
 
-Here's our logo (hover to see the title text):
+Here's my logo (hover to see the title text):
 
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
+Inline-style: ![alt text](https://avatars.githubusercontent.com/u/66654881?s=460&u=4614c45125eb6ab7e4b04468cb9cdf5c998c879d&v=4 "Logo Title Text 1")
 
 Reference-style: ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
+[logo]: https://avatars.githubusercontent.com/u/66654881?s=460&u=4614c45125eb6ab7e4b04468cb9cdf5c998c879d&v=4 "Logo Title Text 2"
 
 Images from any folder can be used by providing path to file. Path should be relative to markdown file.
 
@@ -97,7 +97,7 @@ Images from any folder can be used by providing path to file. Path should be rel
 ## Code
 
 ```javascript
-var s = 'JavaScript syntax highlighting';
+var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
@@ -113,7 +113,7 @@ But let's throw in a <b>tag</b>.
 
 ```js {2}
 function highlightMe() {
-  console.log('This line can be highlighted!');
+  console.log("This line can be highlighted!");
 }
 ```
 
