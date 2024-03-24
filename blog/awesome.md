@@ -100,6 +100,7 @@ Prototyping and Testing
 -   [PHP Live Regex](https://www.phpliveregex.com) - PHP specific
     regular expression tester with live evaluation and code generation
     for all PHP's regex functions.
+-   [Pyrexp](https://pythonium.net/regex) - Online visual Regex tester for Python.
 
 Generators
 ----------
